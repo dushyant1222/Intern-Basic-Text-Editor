@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(5, 0, 136, 0.5), rgba(5, 0, 136, 0.5)), url(images/BG.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 150px;
+
+}
+
+.section {
+    height: 500px;
+    width: 500px;
+}
+
+.col {
+    background-color: white;
+    width: 100%;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: #00000059 0px 5px 15px;
+}
+
+.box {
+    display: inline-block !important;
+    padding: 0 5px;
+}
+
+.first {
+    border-right: 2px solid #40576d33;
+}
+
+input[type=number] {
+    outline: none;
+    border: none;
+    width: 50px;
+    color: #131c35;
+    font-size: 18px;
+    padding: 10px 8px;
+    margin-left: 10px;
+}
+
+.second {
+    border-right: 2px solid #40576d33;
+}
+
+button {
+    border: none;
+    color: #131c35;
+    font-size: 18px;
+    font-weight: 280;
+    background: transparent;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+}
+
+button:hover {
+    background: #40576d1a;
+}
+
+button:active {
+    background: #73b1e333;
+    color: #5273ff;
+}
+
+.third {
+    border-right: 2px solid #40576d33;
+}
+
+.third button:focus {
+    background: #73b1e333;
+    color: #5273ff;
+}
+
+input[type=color] {
+    width: 35px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    resize: vertical;
+
+}
+
+.cube {
+    width: 100px;
+    height: 100px;
+    animation: rotateCube 5s linear infinite;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 50px;
+    }
+}
